@@ -55,4 +55,20 @@
 
 
  }
-    
+    @media (max-width: 768px) {
+    .main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input[type="button"] {
+        width: 22%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    input[type="text"] {
+        height: 40px;
+        font-size: 18px;
+    }
+}
