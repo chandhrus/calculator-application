@@ -1,0 +1,58 @@
+
+      body{
+         background-image: url("pexels-leeloothefirst-5428836.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+     .main  {
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        backdrop-filter: blur(50px);/*blur apply to main div*/
+        margin-top: 150px;
+        margin-left:600px;
+        padding: 20px;
+        border-radius:15px;
+        border:4px solid white;
+        box-shadow: 10px  10px 7px rgba(37, 36, 36, 0.92);
+        }
+  input[type="text"]{ 
+    width: 210px;
+    height: 45px;
+    margin-top:10px;
+    margin-left: 5px;
+    font-size: 35px;
+    font-weight:530;
+    border: none;  /*text box  border remove */
+    outline: none;
+   padding-left: 10px;
+   background-color:transparent;
+   color: white;
+ }
+ #clear{
+    margin-top:10px;
+    height:50px;
+    width: 53px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+
+ }
+ input[type="button"]{
+    width:65px;
+    height:50px;
+    margin-left:6px ;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight:530;
+    border: none;
+    outline: none;
+    border-radius:50px;
+ }
+ .symbol{
+   background-color: orangered;
+   color: white;
+
+
+ }
+    
